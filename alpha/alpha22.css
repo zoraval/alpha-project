@@ -1,0 +1,332 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: url(./IMAGE/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: #f5f5f5;
+}
+#menu{
+    display: none;
+}
+#HeaderSection #left #h1{
+    font-size: 16px;
+}
+#HeaderSection div ul li button{
+    background-color: transparent;
+    width: 77px;
+    height: 33px;
+    border-radius: 5px;
+    color: white
+}
+#HeaderSection{
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+#HeaderSection #left h1 span{
+    font-weight: 100;
+}
+#HeaderSection div ul {
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+    align-items: center;
+}
+
+#BodySection{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 100px;
+}
+#BodySection #Learn{
+    background-color: transparent;
+    color: white;
+    border: 2px solid #a6aeb1;
+}
+#BodySection h1{
+    font-size: 50px;
+}
+#BodySection p{
+    font-size: 20px;
+}
+#BodySection button{
+    width: 169px;
+    height: 49px;
+    border-radius: 7px;
+    background-color: #f0f0f0;
+    color: #6f7275;
+    border: none;
+    margin-right: 10px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+#DiscriptiveSection{
+    text-align: center;
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    border-radius: 5px;
+    padding-top: 20px;
+    margin-top: 69px;
+    color: #646464;
+}
+#DiscriptiveSection h1{
+    font-size: 28px;
+    padding: 10px,50px,10px,50px;
+}
+#DiscriptiveSection p{
+    font-size: 20px;
+    border-top: 1px solid #e5e5e5;
+    width: 70%;
+    margin: auto;
+    padding-top: 40px;
+}
+#DiscriptiveSection hr{
+    width: 650px;
+    padding: 10px,50px,10px,50px;
+    
+}
+#DiscriptiveSection img{
+    padding-top: 70px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+@media(max-width:600px){
+    #HeaderSection{
+        display: none;
+    }
+    #menu{
+        display: inline;
+        color: #fff;
+        padding: 5px;
+        background-color: rgb(177, 176, 176);
+        border-radius: 5px;
+    }
+    body{
+        background-size: 180%;
+        background-position-x: center;
+    }
+    #BodySection{
+        margin-top: 0px;
+    }
+    #BodySection h1{
+        font-size: 25px;
+    }
+    #BodySection p{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    #BodySection button{
+        width: 291px;
+        height: 47px;
+        margin-top: -6px;
+        margin-bottom: 29px;
+        
+    }
+    #DiscriptiveSection{
+        text-align: center;
+        background-color: white;
+        width: 100%;
+        margin: auto;
+        border-radius: 5px;
+        padding-top: 20px;
+        margin-top: 69px;
+        color: #646464;
+    }
+    #DiscriptiveSection h1{
+        font-size: 28px;
+        padding: 10px,50px,10px,50px;
+    }
+    #DiscriptiveSection p{
+        font-size: 20px;
+        border-top: 1px solid #e5e5e5;
+        width: 100%;
+        margin: auto;
+        padding-top: 40px;
+    }
+    #DiscriptiveSection hr{
+        width: 650px;
+        padding: 10px,50px,10px,50px;
+        
+    }
+    #DiscriptiveSection img{
+        padding-top: 70px;
+        width: 100%;
+    }
+    br{
+        display: none;
+    }
+    #IconSection{
+        width: 100%;
+        margin: auto;
+        background-color: #ffffff;
+        color: #646464;
+        
+        
+    }
+    #IconSection div{
+        display: inline-block;
+        text-align: center;
+        justify-content: center;
+        margin-left: 96px
+
+    }
+
+}
+#IconSection{
+    width: 70%;
+    margin: auto;
+    background-color: #ffffff;
+    margin-top: 35px;
+    border-radius: 5px;
+    color: #646464;
+}
+#IconSection div{
+    display: inline-block;
+    text-align: center;
+    width: 47%;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+
+}
+.fa.fa-bolt{
+    font-size: 40px;
+    background-color:
+    #e89980;
+    color: white;
+    border-radius: 100%;
+    padding: 30px 40px;
+}
+.fa.fa-area-chart{
+    font-size: 40px;
+    background-color:#7fcdb8;
+    color: white;
+    border-radius: 100%;
+    padding: 30px 30px;
+}
+.fa.fa-cloud{
+    font-size: 40px;
+    background-color:#90b0ba;
+    color: white;
+    border-radius: 100%;
+    padding: 30px 30px;
+}
+.fa.fa-lock{
+    font-size: 40px;
+    background-color:#e5cb95;
+    color: white;
+    border-radius: 100%;
+    padding: 30px 40px;
+}
+#div1{
+    border-right: 0.5px solid #e5e5e5;
+    border-bottom: 0.5px solid #e5e5e5;
+    position: relative;
+    left: 23px;
+}
+#div4{
+    border-top: 0.5px solid #e5e5e5;
+    border-left: 0.5px solid #e5e5e5;
+    position: relative;
+    top: -21px;
+}
+#div3{
+    position: relative;
+    top: -27px;
+    left: 5px;
+}
+
+#ImageSection{
+    width: 70%;
+    margin: auto;
+    margin-top: 35px;
+    
+}
+#ImageSection div{
+    width: 48.5%;
+    display: inline-block;
+    background-color: white;
+    color: #646464;
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+#ImageSection div img{
+    width: 100%;
+    border-radius: 5px;
+}
+#ImageSection div h1{
+    font-size: 34px;
+}
+#ImageSection div button{
+    border-radius: 10px;
+    width: 100px;
+    height: 42px;
+    background-color: white;
+    color: #646464;
+    border: 0.5px solid #e5e5e5;
+    justify-content: center;
+    margin-left: -5px;
+    margin-top: 20px;
+}
+#ImageSection #div6{
+    margin-left: 22px;
+}
+#SignUpSection{
+    justify-content: center;
+    text-align: center;
+    background-color: #e89980;
+    padding-bottom: 20px;
+    color: 
+    #f8e0d7;
+}
+#SignUpSection h1{
+    margin-top: 61px;
+    padding: 44px;
+    margin-bottom: -30px;
+}
+#SignUpSection button{
+    height: 36px;
+    width: 106px;
+    border-radius: 8px;
+    border: none;
+}
+#SignUpSection #but1{
+    background-color: #eba893;
+    border-radius: 5px;
+    height: 30px;
+    width: 237px;
+    border: none;
+}
+::placeholder{
+    color: white;
+}
+#FooterSection{
+    
+    text-align: center;
+    color: #c6c6c6;
+    padding: 43px;
+    font-size: 34px;
+
+    
+}
+#FooterSection #div8{
+    letter-spacing: 6px;
+}
+#FooterSection #div7{
+    font-size: 13px;
+    text-align: center;
+    padding: 20px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-right: 0.5px solid white;
+}
+

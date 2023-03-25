@@ -1,0 +1,20 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 50px;
+    color: red;
+    animation: heart 2s infinite ease-in-out;
+}
+@keyframes heart {
+    0%{
+        opacity: 100px;
+    }
+    50%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}

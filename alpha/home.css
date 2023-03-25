@@ -1,0 +1,25 @@
+body{
+    font-family: 'Tilt Prism', cursive;
+    background-image: url(./IMAGE/food.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#HeaderSection{
+    background-color: black;
+    color: red;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+#HeaderSection div ul {
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+    align-items: center;
+}
+#HeaderSection div ul li:hover{
+    color: green;
+}
+#HeaderSection #right li span{
+    font-weight: bold;
+}
